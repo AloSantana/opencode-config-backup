@@ -1,0 +1,81 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "environment": {
+    "type": "cloud-vm",
+    "os": "ubuntu-24.04",
+    "description": "Google Cloud VM or similar cloud environment"
+  },
+  "categories": {
+    "base": {
+      "enabled": true,
+      "description": "Package managers and base system tools (required)"
+    },
+    "cli": {
+      "enabled": true,
+      "description": "Modern CLI tools (eza, bat, ripgrep, fd, etc.)"
+    },
+    "devops": {
+      "enabled": false,
+      "description": "Container, IaC, and CI/CD tools"
+    },
+    "ai": {
+      "enabled": true,
+      "description": "AI frameworks and agent tools"
+    },
+    "opencode": {
+      "enabled": true,
+      "description": "OpenCode ecosystem and MCP servers (required)"
+    },
+    "android": {
+      "enabled": false,
+      "description": "Android remote access setup"
+    }
+  },
+  "options": {
+    "install_docker": false,
+    "install_podman": false,
+    "install_k3s": false,
+    "install_dify": false,
+    "install_ollama": true,
+    "setup_tailscale": false,
+    "setup_zellij": true,
+    "setup_starship": true
+  },
+  "tools": {
+    "base": [
+      "uv",
+      "fnm",
+      "mise",
+      "rustup"
+    ],
+    "cli": [
+      "eza",
+      "bat",
+      "ripgrep",
+      "fd-find",
+      "zoxide",
+      "fzf",
+      "btop",
+      "jq",
+      "yq"
+    ],
+    "devops": [
+      "docker",
+      "lazydocker",
+      "dive"
+    ],
+    "ai": [
+      "langgraph",
+      "agno",
+      "crewai",
+      "qdrant",
+      "firecrawl"
+    ],
+    "opencode": [
+      "opencode-cli",
+      "oh-my-opencode",
+      "superpowers-skills"
+    ]
+  }
+}
