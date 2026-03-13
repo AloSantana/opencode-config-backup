@@ -53,7 +53,8 @@ Then run:
 ### Documentation
 
 - **INSTALLATION_HUB.md** - Complete installation guide
-- **docs/TOOLS_CATALOG_2026.md** - Modern developer tools catalog
+- **docs/TOOLS_CATALOG_2026.md
+- **[docs/MCP_SERVERS_REFERENCE.md](docs/MCP_SERVERS_REFERENCE.md)** - Complete MCP servers catalog** - Modern developer tools catalog
 - **docs/LLM_INSTALL_GUIDE.md** - LLM setup and configuration
 - **docs/ANDROID_REMOTE_ACCESS.md** - Android debugging guide
 
@@ -339,7 +340,8 @@ sudo usermod -aG docker $USER
 ## Documentation
 
 - **[INSTALLATION_HUB.md](INSTALLATION_HUB.md)** - Complete installation guide with all tools and MCP servers
-- **[docs/TOOLS_CATALOG_2026.md](docs/TOOLS_CATALOG_2026.md)** - Comprehensive catalog of modern developer tools
+- **[docs/TOOLS_CATALOG_2026.md
+- **[docs/MCP_SERVERS_REFERENCE.md](docs/MCP_SERVERS_REFERENCE.md)** - Complete MCP servers catalog](docs/TOOLS_CATALOG_2026.md)** - Comprehensive catalog of modern developer tools
 - **[docs/LLM_INSTALL_GUIDE.md](docs/LLM_INSTALL_GUIDE.md)** - LLM installation, configuration, and best practices
 - **[docs/ANDROID_REMOTE_ACCESS.md](docs/ANDROID_REMOTE_ACCESS.md)** - Android debugging and screen mirroring guide
 

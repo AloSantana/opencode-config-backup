@@ -28,7 +28,8 @@ cd opencode-config-backup
 
 - **[README.md](README.md)** - Complete overview and usage guide
 - **[INSTALLATION_HUB.md](INSTALLATION_HUB.md)** - Detailed installation reference
-- **[docs/TOOLS_CATALOG_2026.md](docs/TOOLS_CATALOG_2026.md)** - Modern developer tools
+- **[docs/TOOLS_CATALOG_2026.md
+- **[docs/MCP_SERVERS_REFERENCE.md](docs/MCP_SERVERS_REFERENCE.md)** - MCP servers reference](docs/TOOLS_CATALOG_2026.md)** - Modern developer tools
 - **[docs/LLM_INSTALL_GUIDE.md](docs/LLM_INSTALL_GUIDE.md)** - LLM setup and configuration
 - **[docs/ANDROID_REMOTE_ACCESS.md](docs/ANDROID_REMOTE_ACCESS.md)** - Android debugging
 
