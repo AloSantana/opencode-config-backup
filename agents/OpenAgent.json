@@ -1,0 +1,38 @@
+{
+  "name": "OpenAgent",
+  "description": "Fully autonomous agent with no permission prompts",
+  "mode": "primary",
+  "model": "9router/kr/claude-sonnet-4.5",
+  "permissions": [
+    {
+      "permission": "doom_loop",
+      "action": "allow",
+      "pattern": "*"
+    },
+    {
+      "permission": "external_directory",
+      "pattern": "*",
+      "action": "allow"
+    },
+    {
+      "permission": "question",
+      "action": "allow",
+      "pattern": "*"
+    },
+    {
+      "permission": "plan_enter",
+      "action": "allow",
+      "pattern": "*"
+    },
+    {
+      "permission": "plan_exit",
+      "action": "allow",
+      "pattern": "*"
+    },
+    {
+      "permission": "*",
+      "action": "allow",
+      "pattern": "*"
+    }
+  ]
+}
