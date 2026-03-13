@@ -29,7 +29,7 @@ Backup of OpenCode configuration files and settings.
 
 ## Notes
 
-- Sensitive files excluded: `antigravity-accounts.json`
+- Sensitive files excluded: API keys and credentials
 - Build artifacts excluded: `node_modules/`, lock files
 - Antigravitys project symlinks removed for portability
 

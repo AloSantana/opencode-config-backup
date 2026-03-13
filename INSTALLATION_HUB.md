@@ -131,24 +131,7 @@ curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/
 
 ---
 
-#### 3. OpenCode Antigravity Auth
-**Use Google Antigravity credentials with OpenCode**
 
-```bash
-npm install -g opencode-antigravity-auth
-```
-
-**Setup:**
-```bash
-# Add to opencode.json plugins
-{
-  "plugin": ["opencode-antigravity-auth@latest"]
-}
-```
-
-**Repository:** https://github.com/NoeFabris/opencode-antigravity-auth
-
----
 
 ### Skills & Superpowers
 
